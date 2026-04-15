@@ -1,0 +1,108 @@
+.navLogo{
+    width: 150px;
+}
+li{
+    list-style: none;
+}
+.heroIMG{
+    width: 500px;
+    height: 500px;
+}
+.mainHeadingHero{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.colorBG{
+    background-color: #F5F7FA;
+}
+
+.cardIMG{
+    width: 50px;
+    height: 50px;
+    margin-left: 118px;
+    padding: 5px;
+}
+.footerLG{
+    width: 50px;
+    height: 50px;
+}
+#footerlogo{
+    width: 30px;    
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.text-box{
+    position: absolute;
+    top: 230rem;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: #F5F7FA;
+    height: 150px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.text-box2{
+    position: absolute;
+    top: 230rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F5F7FA;
+    height: 150px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.text-box3{
+    position: absolute;
+    top: 230rem;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: #F5F7FA;
+    height: 150px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.colorFT{
+    background-color: #263238;
+    color: #fff;
+}
+
+.planeIMG{
+    filter: invert(1);
+}
+.emailINPUT{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #f5f7fa28;
+    color: #fff;
+}
+.emailBTN{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #26323875;
+    color: #fff;
+}
+.list-menu{
+    color: #fff;
+}
+.btn{
+    background-color: #4CAF4F;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #4CAF4F;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.colorChange{
+    color: #4CAF4F;
+}
+
