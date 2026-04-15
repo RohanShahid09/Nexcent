@@ -105,4 +105,173 @@ a{
 .colorChange{
     color: #4CAF4F;
 }
+.hamImg{
+    display: none;
+    width: 30px;
+    height: 30px;
+}
 
+
+/* responsive design */
+@media (max-width: 768px) {
+
+    .nav-list,
+    .buttonToggle {
+        display: none;
+    }
+
+    .hamImg {
+        display: block;
+    }
+
+    .heroSection {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .heroIMG {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+    }
+
+    .aboutLogo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .aboutLogo1 {
+        width: 25px;
+        height: 25px;
+    }
+
+    .cardRes,
+    .mobileLogin,
+    .analyticsSection,
+    .productSection,
+    .customersSection,
+    .communityUpdate,
+    .cardRes2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .text-box,
+    .text-box2,
+    .text-box3 {
+        position: static;   /* ✅ important */
+        transform: none;
+        margin-top: 20px;
+    }
+
+    .footerRes {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footerSec2,
+    .footerSec3,
+    .footerSec4 {
+        align-items: center;
+    }
+
+    .emailINPUT {
+        width: 100%;
+        max-width: 280px;
+        margin-bottom: 10px;
+    }
+
+    .emailBTN {
+        width: 100%;
+        max-width: 150px;
+    }
+}
+@media (max-width: 400px) {
+
+    body {
+        padding: 0 10px;
+    }
+
+    .heroSection {
+        gap: 10px;
+    }
+
+    .heroIMG {
+        max-width: 200px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .cardRes,
+    .cardRes2,
+    .mobileLogin,
+    .analyticsSection,
+    .productSection,
+    .customersSection,
+    .communityUpdate {
+        gap: 10px;
+    }
+
+    .text-box,
+    .text-box2,
+    .text-box3 {
+        margin-top: 10px;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .aboutLogo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .aboutLogo1 {
+        width: 18px;
+        height: 18px;
+    }
+
+    .footerRes {
+        gap: 15px;
+        padding: 20px 10px;
+    }
+
+    .footerRes h3 {
+        font-size: 16px;
+    }
+
+    .footerRes p,
+    .footerRes a {
+        font-size: 12px;
+    }
+
+    .emailINPUT {
+        max-width: 220px;
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .emailBTN {
+        max-width: 120px;
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
