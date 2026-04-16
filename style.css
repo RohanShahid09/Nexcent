@@ -1,277 +1,284 @@
-.navLogo{
-    width: 150px;
+/* GENERAL */
+.navLogo {
+  width: 150px;
 }
-li{
-    list-style: none;
-}
-.heroIMG{
-    width: 500px;
-    height: 500px;
-}
-.mainHeadingHero{
-    font-size: 50px;
-    font-weight: bold;
-    color: #000000;
-}
-.colorBG{
-    background-color: #F5F7FA;
+.navFontColor {
+  color: #18191f;
 }
 
-.cardIMG{
-    width: 50px;
-    height: 50px;
-    margin-left: 118px;
-    padding: 5px;
-}
-.footerLG{
-    width: 50px;
-    height: 50px;
-}
-#footerlogo{
-    width: 30px;    
-    height: 30px;
-}
-a{
-    text-decoration: none;
-    color: #000000;
-}
-.text-box{
-    position: absolute;
-    top: 230rem;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    background-color: #F5F7FA;
-    height: 150px;
-    width: 300px;
-    padding: 20px;
-    border-radius: 10px;
-}
-.text-box2{
-    position: absolute;
-    top: 230rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #F5F7FA;
-    height: 150px;
-    width: 300px;
-    padding: 20px;
-    border-radius: 10px;
-}
-.text-box3{
-    position: absolute;
-    top: 230rem;
-    left: 80%;
-    transform: translate(-50%, -50%);
-    background-color: #F5F7FA;
-    height: 150px;
-    width: 300px;
-    padding: 20px;
-    border-radius: 10px;
-}
-.colorFT{
-    background-color: #263238;
-    color: #fff;
+li {
+  list-style: none;
 }
 
-.planeIMG{
-    filter: invert(1);
+a {
+  text-decoration: none;
+  color: #000;
 }
-.emailINPUT{
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    background-color: #f5f7fa28;
-    color: #fff;
-}
-.emailBTN{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #26323875;
-    color: #fff;
-}
-.list-menu{
-    color: #fff;
-}
-.btn{
-    background-color: #4CAF4F;
-    color: #fff;
-}
-.btn:hover{
-    background-color: #4CAF4F;
-    color: #fff;
-    opacity: 0.8;
+.colorChange {
+  color: #4caf4f;
 }
 
-.colorChange{
-    color: #4CAF4F;
+.colorBG {
+  background-color: #f5f7fa;
 }
-.hamImg{
-    display: none;
+
+.colorFT {
+  background-color: #263238;
+  color: #fff;
+}
+.hamImg {
+  display: none;
+}
+
+.heroIMG {
+  width: 500px;
+  height: 500px;
+}
+
+.mainHeadingHero {
+  font-size: 50px;
+  font-weight: bold;
+}
+.partofMainheading {
+  color: #4caf4f;
+  font-size: 50px;
+  font-weight: bold;
+}
+.analyticsHeading {
+  color: #4caf4f;
+}
+.headingColor {
+  color: #4d4d4d;
+}
+.fontColor {
+  color: #717171;
+}
+#footerlogo {
+  padding-top: 15px;
+  width: 55px;
+}
+.productImg {
+  width: 100%;
+  height: auto;
+}
+.customerImg {
+  width: 100%;
+  height: auto;
+}
+.inputEmail {
+    width: 100%;
+  /* border-radius: 10px;
+  padding: 10px; */
+}
+.cardIMG {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.cardItem {
+  position: relative;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.cardItem img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-box {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f5f7fa;
+  width: 85%;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #4caf4f;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.emailINPUT {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 1024px) {
+  .heroSection {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heroIMG {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  .aboutLogo {
+    width: 55px;
+  }
+  .aboutLogo1 {
     width: 30px;
-    height: 30px;
+  }
+  .footerLG {
+    width: 55px;
+  }
+  #footerlogo {
+    width: 35px;
+    padding-top: 5px;
+  }
 }
 
-
-/* responsive design */
 @media (max-width: 768px) {
+  .nav-list,
+  .buttonToggle {
+    display: none;
+  }
+  .hamImg {
+    display: block;
+    margin-left: auto;
+  }
 
-    .nav-list,
-    .buttonToggle {
-        display: none;
-    }
+  .hamImg {
+    display: block;
+    width: 30px;
+  }
 
-    .hamImg {
-        display: block;
-    }
+  .heroSection {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
 
-    .heroSection {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-    }
+  .heroIMG {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
 
-    .heroIMG {
-        width: 100%;
-        max-width: 280px;
-        height: auto;
-    }
+  .cardRes,
+  .mobileLogin,
+  .analyticsSection,
+  .productSection,
+  .customersSection {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    .aboutLogo {
-        width: 30px;
-        height: 30px;
-    }
+  .aboutLogo {
+    width: 45px;
+  }
+  .aboutLogo1 {
+    width: 30px;
+  }
+  .footerLG {
+    width: 45px;
+  }
+  #footerlogo {
+    width: 30px;
+    padding-top: 0%;
+  }
 
-    .aboutLogo1 {
-        width: 25px;
-        height: 25px;
-    }
+  .cardRes2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 
-    .cardRes,
-    .mobileLogin,
-    .analyticsSection,
-    .productSection,
-    .customersSection,
-    .communityUpdate,
-    .cardRes2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-    }
+  .cardItem {
+    max-width: 600px;
+  }
 
-    .text-box,
-    .text-box2,
-    .text-box3 {
-        position: static;   /* ✅ important */
-        transform: none;
-        margin-top: 20px;
-    }
-
-    .footerRes {
-        flex-direction: column !important;
-        align-items: center !important;
-        text-align: center;
-        gap: 30px;
-    }
-
-    .footerSec2,
-    .footerSec3,
-    .footerSec4 {
-        align-items: center;
-    }
-
-    .emailINPUT {
-        width: 100%;
-        max-width: 280px;
-        margin-bottom: 10px;
-    }
-
-    .emailBTN {
-        width: 100%;
-        max-width: 150px;
-    }
+  .text-box {
+    position: static;
+    transform: none;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .imageTest {
+    width: 100%;
+    height: auto;
+  }
 }
+
+/* SMALL MOBILE */
 @media (max-width: 400px) {
+  body {
+    padding: 0 10px;
+  }
 
-    body {
-        padding: 0 10px;
-    }
+  h1 {
+    font-size: 20px;
+  }
 
-    .heroSection {
-        gap: 10px;
-    }
+  p {
+    font-size: 12px;
+  }
 
-    .heroIMG {
-        max-width: 200px;
-    }
+  .heroIMG {
+    max-width: 200px;
+  }
 
-    h1 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 12px;
-    }
-
-    .cardRes,
-    .cardRes2,
-    .mobileLogin,
-    .analyticsSection,
-    .productSection,
-    .customersSection,
-    .communityUpdate {
-        gap: 10px;
-    }
-
-    .text-box,
-    .text-box2,
-    .text-box3 {
-        margin-top: 10px;
-        font-size: 12px;
-        padding: 0 10px;
-    }
-
+  .text-box {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .rafikiImg {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+}
+@media (max-width: 320px) {
+  .navLogo {
+    width: 100px;
+  }
+  /* .navContent {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;           
+  padding: 10px 0px;
+  width: 100%;                  
+} */
+  /* .hamImg{
+    margin: 0%;
+} */
+  .hamImg {
+    margin-top: -30px;
+  }
     .aboutLogo {
-        width: 20px;
-        height: 20px;
-    }
+    width: 30px;
+  }
+  .aboutLogo1 {
+    width: 20px;
+    padding: 5px 0px;
+  }
+  .footerLG {
+    width: 20px;
+  }
+  #footerlogo {
+    width: 15px;
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+  }
+  .rafikiImg {
+    width: 100%;
+    height: auto;
 
-    .aboutLogo1 {
-        width: 18px;
-        height: 18px;
-    }
-
-    .footerRes {
-        gap: 15px;
-        padding: 20px 10px;
-    }
-
-    .footerRes h3 {
-        font-size: 16px;
-    }
-
-    .footerRes p,
-    .footerRes a {
-        font-size: 12px;
-    }
-
-    .emailINPUT {
-        max-width: 220px;
-        padding: 6px;
-        font-size: 12px;
-    }
-
-    .emailBTN {
-        max-width: 120px;
-        font-size: 12px;
-        padding: 6px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+    
+  }
 }
