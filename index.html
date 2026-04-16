@@ -15,42 +15,57 @@
   <body>
     <!-- header -->
 
-    <nav class="navbar bg-body-tertiary">
-      <div class="container navContent">
-        <a class="navbar-brand"
-          ><img src="./images/Logo.png" class="navLogo" alt="Logo"
-        /></a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="#home">
+          <img src="./images/Logo.png" class="navLogo" alt="Logo" />
+        </a>
 
-        <div>
-          <ul class="d-flex gap-5 mb-0">
-            <li>
-              <a class="nav-link nav-list navFontColor" href="#home">Home</a>
+        <!-- Mobile Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Content -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Nav Links -->
+          <ul class="navbar-nav mx-auto gap-lg-4 text-center">
+            <li class="nav-item">
+              <a class="nav-link navFontColor" href="#home">Home</a>
             </li>
-            <li>
-              <a class="nav-link nav-list navFontColor" href="#services">Service</a>
+            <li class="nav-item">
+              <a class="nav-link navFontColor" href="#services">Service</a>
             </li>
-            <li>
-              <a class="nav-link nav-list navFontColor" href="#feature">Feature</a>
+            <li class="nav-item">
+              <a class="nav-link navFontColor" href="#feature">Feature</a>
             </li>
-            <li>
-              <a class="nav-link nav-list navFontColor" href="#product">Product</a>
+            <li class="nav-item">
+              <a class="nav-link navFontColor" href="#product">Product</a>
             </li>
-            <li>
-              <a class="nav-link nav-list navFontColor" href="#testimonial">Testimonial</a>
+            <li class="nav-item">
+              <a class="nav-link navFontColor" href="#testimonials"
+                >Testimonial</a
+              >
             </li>
-            <li>
-              <a class="nav-link nav-list navFontColor" href="#faq">FAQ</a>
+            <li class="nav-item">
+              <a class="nav-link navFontColor" href="#faq">FAQ</a>
             </li>
           </ul>
-        </div>
-        <img
-          src="./images/icons8-hamburger-menu-50.png"
-          alt="Menu"
-          class="hamImg"
-        />
-        <div class="buttonToggle">
-          <button class="btn" type="submit">Login</button>
-          <button class="btn" type="submit">Signup</button>
+
+          <!-- Buttons -->
+          <div class="d-flex gap-2 justify-content-center">
+            <button class="btn btn-outline-primary">Login</button>
+            <button class="btn btn-primary">Signup</button>
+          </div>
         </div>
       </div>
     </nav>
@@ -64,7 +79,7 @@
           <div class="col-7">
             <h1 class="mainHeadingHero headingColor">
               Lessons and insights <br />
-              <h1 class="partofMainheading ">from 8 years</h1>
+              <h1 class="partofMainheading">from 8 years</h1>
             </h1>
             <p class="fontColor">
               Where to grow your business as a photographer: site or social
@@ -85,11 +100,13 @@
 
     <!-- client section -->
 
-    <div class="container" >
+    <div class="container">
       <div class="row justify-content-center mb-4">
         <div class="text-center my-5">
-          <h1 class="headingColor" >Our Clients</h1>
-          <p class="fontColor">We have been working with some Fortune 500+ clients</p>
+          <h1 class="headingColor">Our Clients</h1>
+          <p class="fontColor">
+            We have been working with some Fortune 500+ clients
+          </p>
         </div>
         <div class="row align-items-center justify-content-center g-2">
           <div class="col-1">
@@ -117,7 +134,10 @@
         </div>
       </div>
 
-      <div class="d-flex align-items-center flex-column mb-5 mt-5" id="services">
+      <div
+        class="d-flex align-items-center flex-column mb-5 mt-5"
+        id="services"
+      >
         <h1 class="headingColor">
           Manage your entire community <br />
           <center>in a single system</center>
@@ -175,7 +195,7 @@
 
     <!-- mobile login section -->
 
-    <div class="container">
+    <div class="container" id="feature">
       <div class="d-flex mb-5 mobileLogin">
         <div class="col-5">
           <img src="./images/rafiki.png" alt="" class="rafikiImg" />
@@ -204,14 +224,16 @@
     <!-- mobile login section -->
 
     <!-- analytics section -->
-    <div class="colorBG">
+    <div class="colorBG" >
       <div class="container d-flex py-5 analyticsSection">
         <div class="py-5 col-lg-6">
           <h1 class="headingColor">
-            Helping a local <br /> <h1 class="analyticsHeading">business 
-            reinvent itself</h1>
+            Helping a local <br />
+            <h1 class="analyticsHeading">business reinvent itself</h1>
           </h1>
-          <p class="fontColor">We reached here with our hard work and dedication</p>
+          <p class="fontColor">
+            We reached here with our hard work and dedication
+          </p>
         </div>
 
         <div class="col-lg-6">
@@ -247,12 +269,14 @@
     <!-- analytics section -->
 
     <!-- how we designed the product section -->
-    <div class="container mt-5 d-flex mb-5 productSection">
+    <div class="container mt-5 d-flex mb-5 productSection" id="product">
       <div class="col-lg-6">
         <img src="./images/pana.png" alt="" class="productImg" />
       </div>
       <div class="col-lg-6 mt-5">
-        <h1 class="headingColor">How to design your site footer like <br />we did</h1>
+        <h1 class="headingColor">
+          How to design your site footer like <br />we did
+        </h1>
         <p class="fontColor">
           Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
           augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque
@@ -271,12 +295,16 @@
     <!-- how to designed the product section  -->
 
     <!-- Customers section  -->
-    <div class="colorBG">
+    <div class="colorBG" id="testimonials">
       <div
         class="container d-flex align-items-center justify-content-center gap-5 mt-5 customersSection"
       >
         <div class="col-lg-4">
-          <img src="./images/image 9.png" class="mt-5 mb-5 customerImg" alt="" />
+          <img
+            src="./images/image 9.png"
+            class="mt-5 mb-5 customerImg"
+            alt=""
+          />
         </div>
         <div class="col-lg-8">
           <p class="fontColor">
@@ -292,7 +320,9 @@
             Curabitur id nibh id sem dignissim finibus ac sit amet magna.
           </p>
           <h3 class="headingColor">Tim Smith</h3>
-          <p class="fw-light fontColor">British Dragon Boat Racing Association</p>
+          <p class="fw-light fontColor">
+            British Dragon Boat Racing Association
+          </p>
           <div class="row align-items-center">
             <div class="col-lg-10 d-flex">
               <div class="col-1">
@@ -331,10 +361,10 @@
 
     <!-- community update section -->
 
-    <div class="container mb-5 communityUpdate">
+    <div class="container mb-5 communityUpdate" id="faq">
       <div class="text-center my-5">
         <h1 class="headingColor">Caring is the new marketing</h1>
-        <p  class="fontColor">
+        <p class="fontColor">
           The Nexcent blog is the best place to read about <br />
           the latest membership insights, trends and more.
         </p>

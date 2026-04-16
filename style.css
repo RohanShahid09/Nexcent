@@ -66,7 +66,7 @@ a {
   height: auto;
 }
 .inputEmail {
-    width: 100%;
+  width: 100%;
   /* border-radius: 10px;
   padding: 10px; */
 }
@@ -146,15 +146,6 @@ a {
   .nav-list,
   .buttonToggle {
     display: none;
-  }
-  .hamImg {
-    display: block;
-    margin-left: auto;
-  }
-
-  .hamImg {
-    display: block;
-    width: 30px;
   }
 
   .heroSection {
@@ -254,13 +245,7 @@ a {
   padding: 10px 0px;
   width: 100%;                  
 } */
-  /* .hamImg{
-    margin: 0%;
-} */
-  .hamImg {
-    margin-top: -30px;
-  }
-    .aboutLogo {
+  .aboutLogo {
     width: 30px;
   }
   .aboutLogo1 {
@@ -278,7 +263,5 @@ a {
   .rafikiImg {
     width: 100%;
     height: auto;
-
-    
   }
 }
